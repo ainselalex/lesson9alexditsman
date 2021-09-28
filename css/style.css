@@ -78,10 +78,31 @@
     max-width: 1088px;
     width: 100%;
     height: 286px;
-    margin-top: 50px;  
-    background-size: cover;  
+    margin-top: 50px;
+    margin-bottom: 56px;
 }
 .map{
+    width: 100%;
     height: 286px;
-    margin: 0 139px;
+}
+.forms-section{
+    max-width: 1088px;
+    width: 100%;
+    height: 688px;
+    margin: 0 auto;
+}
+.forms-section-title{
+    width: 70px;
+    height: 20px;
+    font-size: 14px;
+    color:#5863F8;
+    font-family: 'Poppins', sans-serif;
+}
+.forms-section-paragraph{
+    max-width: 378px;
+    width: 100%;
+    height: 115px;
+    font-size: 42px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
 }
