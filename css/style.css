@@ -1,0 +1,87 @@
+.header-section{
+    max-width: 1366px;
+    width: 100%;
+    height: 324px;
+    background-image: url(../images/Group\ 68.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+.header-div{
+    margin: 0 auto;
+    padding-top: 30px;
+    max-width: 1088px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-li{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-list2{
+    padding-left: 48px;
+}
+.list-names{
+    font-size: 12px;
+    height: 17px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.home{
+    width: 36px;
+    height: 17px;
+    color: #5863F8;
+    font-family: 'Poppins', sans-serif;
+
+}
+.header-l{
+    width: 86px;
+    height: 20px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.header-title-div{
+    width: 177px;
+    height: 59px;
+    margin-top: 95px;
+    margin-left: 139px;
+}
+.header-title{
+    font-size: 42px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.header-categories{
+    display: flex;
+    flex-direction: row;
+    margin-left: 139px;
+}
+.divider{
+    width: 1px;
+    height: 19px;
+    color: white;
+    margin-right: 16.5px;
+    display: block;
+}
+.header-categorie1{
+    width: 42px;
+    height: 20px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 14.5px;
+}
+.map-section{
+    margin: 0 auto;
+    max-width: 1088px;
+    width: 100%;
+    height: 286px;
+    margin-top: 50px;  
+    background-size: cover;  
+}
+.map{
+    height: 286px;
+    margin: 0 139px;
+}
