@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous">
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
@@ -66,9 +68,18 @@
     <section class="forms-section">
         <h3 class="forms-section-title">CONTACT</h3>
         <p class="forms-section-paragraph">Contact us to get free support!</p>
-        <form action="#">
+        <form class="contact-information-form" action="#">
             <div class="text-description">
-                
+                <textarea class="text-area" name="" id="" cols="30" rows="10" placeholder="Description"></textarea>
+            </div>
+            <div class="input-div">
+                <input class="input-name" type="text" id="inputtext" placeholder="Subject" name="subject">
+                <input class="input-surname" type="text" id="inputsurname" placeholder="Name / Surname" name="name-surname">
+                <input class="input-email" type="email" id="inputemail" placeholder="Email" name="email">
+                <button class="bttn" type="submit">
+                    <span class="send-bttn">Send</span>
+                    <i class="far fa-paper-plane" aria-hidden="true"></i>
+                </button>
             </div>
         </form>
 
