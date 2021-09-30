@@ -1,3 +1,153 @@
-@media (max-width:1024px){
-    
+@media (max-width:1260px){
+    .header-section{
+        width: 100%;
+    }
+    .header-div{
+        width: 900px;
+        margin-left: 100px;
+    }
+    .list-names{
+        font-size: 11px;
+    }
+    .header-1{
+        font-size: 11px;
+    }
+    .header-title{
+        font-size: 36px;
+    }
+    .map-section{
+        max-width: 800px;
+        width: 100%;
+    }
+    .forms-section{
+        width: 850px;
+    }
+    .forms-section-title{
+        font-size: 12px;
+    }
+    .forms-section-paragraph{
+        width: 280px;
+        font-size: 34px;
+    }
+    .contact-information-form{
+        max-width: 880px;
+        width: 100%;
+    }
+    .text-description{
+        width: 600px;
+        margin-right: 10px;
+    }
+    .input-name{
+        width: 230px;
+    }
+    .input-surname{
+        width: 230px;
+    }
+    .input-email{
+        width: 230px;
+    }
+    .bttn{
+        width: 230px;
+    }
+    .contacts-div{
+        display: flex;
+        justify-content: space-between;
+    }
+    .photo-section-title{
+        font-size: 12px;
+    }
+    .photo-section-sub{
+        width: 460px;
+        font-size: 34px;
+    }
+    .photo-image{
+        width: 270px;
+        width: 100%;
+    }
+    .footer-right-div{
+        width: 430px;
+    }
+    .footer-end-text{
+        width: 880px;
+    }
+}
+
+@media (max-width:1060px) {
+    .header-section{
+        width: 100%;
+    }
+    .header-div{
+        width: 700px;
+        margin-left: 100px;
+    }
+    .list-names{
+        font-size: 10px;
+    }
+    .header-1{
+        font-size: 10px;
+    }
+    .header-title{
+        font-size: 30px;
+    }
+    .map-section{
+        max-width: 650px;
+        width: 100%;
+    }
+    .forms-section{
+        width: 650;
+    }
+    .forms-section-title{
+        font-size: 11px;
+    }
+    .forms-section-paragraph{
+        width: 260px;
+        font-size: 34px;
+    }
+    .contact-information-form{
+        max-width: 680px;
+        width: 100%;
+    }
+    .text-description{
+        width: 450px;
+        margin-right: 10px;
+    }
+    .input-name{
+        width: 170px;
+    }
+    .input-surname{
+        width: 170px;
+    }
+    .input-email{
+        width: 170px;
+    }
+    .bttn{
+        width: 170px;
+    }
+    .contacts-div{
+        display: flex;
+        justify-content: space-between;
+    }
+    .photo-section-title{
+        font-size: 11px;
+    }
+    .photo-gallery{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo-section-sub{
+        width: 3700px;
+        font-size: 30px;
+    }
+    .photo-image{
+        width: 220px;
+        width: 100%;
+    }
+    .footer-right-div{
+        width: 350px;
+    }
+    .footer-end-text{
+        width: 680px;
+    }
 }
