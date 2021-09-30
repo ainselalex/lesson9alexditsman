@@ -178,3 +178,90 @@
     font-weight: bold;
     font-family: 'Poppins';
 }
+.contacts-div{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 70px;
+    padding-right: 70px; */
+}
+.small-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.round-div{
+    width: 59px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: #5863F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.far{
+    color: white;
+}
+.round-div-text{
+    width: 50px;
+    height: 25px;
+    font-size: 18px;
+    color: #000000;
+    font-family:'Poppins';
+}
+.round-div-emails{
+    /* max-width: 362px; */
+    height: 44px;
+    font-size: 14px;
+    color: #B1B1B1;
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: center;
+}
+.fas{
+    color: white;
+}
+.photo-section{
+    margin-top: 90px;
+}
+.photo-section-title{
+    margin-left: 279px;
+    width: 58px;
+    height: 20px;
+    font-size: 14px;
+    font-family:'Poppins';
+    color:#5863F8;
+}
+.photo-section-sub{
+    margin-left: 279px;
+    max-width: 565px;
+    width: 100%;
+    height: 115px;
+    font-size: 42px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+}
+.photo-gallery{
+    display: flex;
+    justify-content: space-between;
+}
+.bg-ft-image{
+    width: 100%;
+    height: 395px;
+    background-image: url(../images/Rectangle\ 244.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 90px;
+    margin-bottom: 54px;
+}
